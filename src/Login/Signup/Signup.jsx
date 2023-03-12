@@ -2,8 +2,10 @@ import React from 'react'
 
 function Signup() {
   return (
-    <div>
-      Sign Up Pag
+    <div className="bg-[url('Assets/Background.png')]">
+     <div className='signup'>
+      askjahgsia
+     </div>
     </div>
   )
 }

@@ -17,3 +17,7 @@
   list-style-type: none;
   font-family: 'Noto Serif Georgian', serif;
 }
+.signup{
+  background: linear-gradient(145.36deg, rgba(244, 244, 244, 0.4) -4.23%, rgba(244, 244, 244, 0.2) 102.58%);
+backdrop-filter: blur(10px);
+}

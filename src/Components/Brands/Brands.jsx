@@ -48,7 +48,7 @@ function Brands() {
       <div className="flex justify-center items-center text-5xl">{heading}</div>
       <div className="flex flex-row justify-evenly gap-10 flex-wrap ">
         {data.map((item) => (
-          <div className="flex flex-row justify-around items-center gap-x-8  drop-shadow-2xl bg-slate-50 h-16 w-1/4 ">
+          <div className="flex flex-row justify-around items-center gap-x-8  drop-shadow-2xl bg-slate-50 h-16 w-1/4 " key={item.id}>
             <div>
               <img src={item.img} alt="" width={85} />
             </div>
