@@ -9,6 +9,10 @@
   .btn-full{
     @apply bg-zinc-900 text-slate-50 w-28 h-9 hover:border-solid hover:border-2 hover:border-zinc-900; 
   }
+  .input{
+   @apply bg-transparent border-0 border-b-2
+}
+
 }
 *{
   padding: 0;
@@ -18,6 +22,19 @@
   font-family: 'Noto Serif Georgian', serif;
 }
 .signup{
-  background: linear-gradient(145.36deg, rgba(244, 244, 244, 0.4) -4.23%, rgba(244, 244, 244, 0.2) 102.58%);
+background: linear-gradient(145.36deg, rgba(244, 244, 244, 0.4) -4.23%, rgba(244, 244, 244, 0.2) 102.58%);
 backdrop-filter: blur(10px);
+height: 600px;
+width: 500px;
+border-radius: 50px;
+}
+.s-img{
+  width: 850px;
+  height: 100vh;
+  margin-left: 220px;
+  margin-top: -450px;
+}
+.bg{height: 100vh;
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 12%, rgba(7,82,101,1) 45%, rgba(9,107,121,0.9304096638655462) 70%, rgba(0,212,255,1) 100%);
 }
